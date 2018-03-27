@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Google</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="SHORTCUT ICON" href="googleg_lodp.ico" />
+  <link rel="stylesheet" type="text/css" href="../css pages/googlecss.css">
+
+  <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();   
+            });
+            $(document).ready(function(){
+                $(".micimg").mouseover(function(){
+                $(".googlesearchbox").css({"outline":"rgb(170, 165, 165)","box-shadow":"0px 1px 5px rgb(170, 165, 165)"});
+     });
+});
+
+            $(document).ready(function(){
+                $(".micimg").mouseleave(function(){
+                $(".googlesearchbox").css({"outline":"none","box-shadow":"0px 1px 5px rgb(231, 226, 226)"});
+     });
+});
+
+  </script>    
+</head>
+<body>
+
+<div class="container-fluid">
+   
+        <div class="firstrowdiv">
+        
+            <a href="#" class="firstrow">Gmail</a> 
+       
+        
+            <a href="#" class="firstrow">Images </a>
+        
+       
+            <a href="#"  class="firstrow" >
+                <div class="appslink appsflex " >
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </a>
+            <a href="#" class="firstrow"> <button class="button-style">Sign in</button></a>
+        <div class="firstrow">&nbsp;&nbsp;&nbsp;</div>
+         </div>
+
+        <div class="googleimgdiv">
+                <img class="googleimg" src="../Images/google-logo.png" title="Google" width="500" height="250"alt="Google";> 
+        </div>
+
+       <div class="searchdiv"> 
+            <input type="search" class="googlesearchbox" /> 
+            <a href="#" class="mictitle" data-toggle="tooltip" data-placement="bottom" title="Search by voice">
+            <img class="micimg" src="../Images/googlemic.png" width="28px" height="28px" alt="google voice search"> 
+            </a>
+       </div>    
+
+          
+
+       <div class="buttondiv">
+            <a href="#"> <button class="buttontwostyle">Google Search</button></a>
+            <a href="#"> <button class="buttontwostyle">I'm Feeling Lucky</button></a>
+       </div>
+
+       <div class="langrow">
+            Google&nbsp;offered&nbsp;in:
+            &nbsp;<a href="#">हिन्दी              </a>
+            &nbsp;<a href="#">বাংলা              </a>
+            &nbsp;<a href="#">తెలుగు            </a>
+            &nbsp;<a href="#">मराठी              </a>
+            &nbsp;<a href="#">தமிழ்            </a>
+            &nbsp;<a href="#">ગુજરાતી            </a>
+            &nbsp;<a href="#">ಕನ್ನಡ              </a>
+            &nbsp;<a href="#">മലയാളം         </a> 
+            &nbsp;<a href="#">ਪੰਜਾਬੀ              </a> 
+             
+       </div>    
+
+      <!-- <form action="/action_page.php">
+        <div class="input-group gsearchbox">
+          <input type="text" class="form-control" name="search">
+          <div class="input-group-btn">
+            <button class="btn btn-default micbutton" type="submit">
+          </div>
+        </div>
+      </form> -->
+
+</div>
+
+</body>
+</html>

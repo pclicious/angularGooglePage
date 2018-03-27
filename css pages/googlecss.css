@@ -1,0 +1,177 @@
+
+
+.appsflex{
+	display: flex;
+  	flex-wrap: wrap;
+  	background-color:white;
+	height:15px;
+	width:23px;
+}
+
+.appsflex>div{
+	background-color:#8f9193;
+  	width:4px;
+	height:4px;
+  	margin:1px; 	
+}
+
+a div.appslink:hover{
+	color:black !important;
+}
+
+
+.firstrow{
+    float:left;
+    border-style: none;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+.firstrowdiv{
+	float: left;
+	position: absolute;
+    right: 0px;
+	max-width:100%;
+	height: auto;
+	display:flex;    
+    align-items:center;
+}
+
+.buttontwostyle{
+	outline:none;
+	background-color: rgb(236, 236, 236);;
+	border:none;
+	border-radius: 2px;
+	color: rgb(119, 119, 119);
+    padding: 7px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 14px;
+	font-weight: 552;
+    margin: 2px 2px;
+    cursor: pointer !important;
+
+}
+
+a .buttontwostyle:hover{
+	color: rgb(88, 88, 88);
+	border: solid 1px rgb(196, 196, 196);
+}
+
+.langrow{
+	position: absolute;
+	top:450px;
+	left:380px;
+}
+
+
+.button-style{
+	background-color: rgba(32, 105, 233, 0.884);
+	border-style: none;
+	border-color:none;
+	border-radius: 2px;
+    color: white;
+    padding: 7px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+    margin: 2px 2px;
+    cursor: pointer !important;
+}
+
+
+
+a.firstrow:link {
+    color: black;
+}
+
+a.firstrow:visited {
+    color: black;
+}
+
+a.firstrow:hover {
+    color: rgb(95, 89, 89);
+}
+
+a.firstrow:active {
+    color: black;
+}
+
+.googlesearchbox:focus, .googlesearchbox:hover{
+	outline: rgb(170, 165, 165);
+	box-shadow: 0px 1px 5px rgb(170, 165, 165);
+    
+}
+
+.googleimgdiv{
+	   top:90px;
+	   left:410px;
+	   z-index: -1;
+	   position: absolute;
+}
+
+.googlesearchbox{
+	 position: absolute;
+	 z-index:1;
+	 top:320px;
+	 left:380px;
+	 height:40px;
+	 width:560px;
+	 border: 1px solid rgb(231, 226, 226);
+	 padding: 10px;
+	 box-shadow: 0px 1px 5px rgb(231, 226, 226);
+}
+
+.searchdiv{
+	position: relative;
+}
+
+.micimg{
+	position: absolute;
+	z-index:2;
+	top:325px;
+	right:410px;
+	outline:none;
+}
+
+.mictitle + .tooltip > .tooltip-inner {
+	background-color: rgb(0, 0, 0); 
+	color: #FFFFFF; 
+	border:1px solid rgb(0, 0, 0); 
+	padding: 6px;
+	font-size: 12px;
+	font-weight: bold;
+	position: absolute;
+	top:363px;
+	left:855px;
+	width:120px;
+}
+
+.mictitle + .tooltip.bottom > .tooltip-arrow {
+	border-bottom: 5px solid rgb(0, 0, 0);
+/*	position: absolute;*/
+	top:358px;
+	left:912px;
+}
+
+
+
+.buttondiv{
+  position:absolute;
+  top:380px;
+  left:540px;
+}
+
+
+
+
+
+
+
